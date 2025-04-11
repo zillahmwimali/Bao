@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+pid_file = File.expand_path("../tmp/pids/server.pid", __dir__)
+
+if File.exist?(pid_file)
+  puts "Removing stale server.pid..."
+  File.delete(pid_file)
+end
+
+exec "./bin/rails", "server", *ARGV
