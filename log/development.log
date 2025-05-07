@@ -8,3 +8,19 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 55ms (Views: 9.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 3.9ms)
 
 
+Started GET "/" for ::1 at 2025-04-23 10:33:39 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Bao'*/[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.8ms | GC: 0.7ms)
+Completed 200 OK in 58ms (Views: 4.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 3.8ms)
+
+
+Started GET "/" for ::1 at 2025-05-06 16:12:34 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='Bao'*/[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | GC: 0.0ms)
+Completed 200 OK in 41ms (Views: 1.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+

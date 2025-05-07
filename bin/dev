@@ -1,9 +1,20 @@
 #!/usr/bin/env ruby
+
 pid_file = File.expand_path("../tmp/pids/server.pid", __dir__)
 
 if File.exist?(pid_file)
   puts "Removing stale server.pid..."
   File.delete(pid_file)
+end
+
+PORT = 3000
+PID = `lsof -ti tcp:#{PORT}`.strip
+
+if !PID.empty?
+  puts "Port #{PORT} is already in use by process #{PID}..."
+  Process.kill("KILL", PID.to_i)
+else
+  puts "Port #{PORT} is free."
 end
 
 exec "./bin/rails", "server", *ARGV
