@@ -1,0 +1,14 @@
+
+
+inherit_gem:
+  rubocop-shopify: rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 3.3
+  NewCops: enable
+  SuggestExtensions: false
+
+
+Layout/LineLength:
+  Max: 100
+  Enabled: true
