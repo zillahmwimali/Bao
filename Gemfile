@@ -39,6 +39,7 @@ gem "thruster", require: false
 
 gem "vite_rails"
 gem "inertia_rails", git: 'https://github.com/inertiajs/inertia-rails'
+gem 'pg'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
