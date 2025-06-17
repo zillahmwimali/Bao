@@ -1399,3 +1399,83 @@ Completed 200 OK in 36ms (Views: 3.0ms | ActiveRecord: 0.0ms (0 queries, 0 cache
 
 
 Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-17 14:32:42 +0300
+Started GET "/" for ::1 at 2025-06-17 14:52:54 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/bundler/gems/inertia-rails-a6a3c289bd82/app/views/inertia.html.erb within layouts/application
+  Rendered /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/bundler/gems/inertia-rails-a6a3c289bd82/app/views/inertia.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 200 OK in 28ms (Views: 3.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-17 14:52:54 +0300
+Started GET "/" for ::1 at 2025-06-17 16:07:54 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/bundler/gems/inertia-rails-a6a3c289bd82/app/views/inertia.html.erb within layouts/application
+  Rendered /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/bundler/gems/inertia-rails-a6a3c289bd82/app/views/inertia.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 200 OK in 40ms (Views: 3.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-17 16:07:55 +0300
+Started GET "/" for ::1 at 2025-06-17 16:13:08 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/bundler/gems/inertia-rails-a6a3c289bd82/app/views/inertia.html.erb within layouts/application
+  Rendered /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/bundler/gems/inertia-rails-a6a3c289bd82/app/views/inertia.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 32ms (Views: 2.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-17 16:13:08 +0300
+Started GET "/" for ::1 at 2025-06-17 16:51:46 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/bundler/gems/inertia-rails-a6a3c289bd82/app/views/inertia.html.erb within layouts/application
+  Rendered /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/bundler/gems/inertia-rails-a6a3c289bd82/app/views/inertia.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 200 OK in 62ms (Views: 3.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-17 16:51:46 +0300
+Started GET "/" for ::1 at 2025-06-17 16:53:02 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/bundler/gems/inertia-rails-a6a3c289bd82/app/views/inertia.html.erb within layouts/application
+  Rendered /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/bundler/gems/inertia-rails-a6a3c289bd82/app/views/inertia.html.erb within layouts/application (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | GC: 0.0ms)
+Completed 200 OK in 30ms (Views: 2.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-17 16:53:02 +0300
+Started GET "/" for ::1 at 2025-06-17 18:05:36 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/bundler/gems/inertia-rails-a6a3c289bd82/app/views/inertia.html.erb within layouts/application
+  Rendered /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/bundler/gems/inertia-rails-a6a3c289bd82/app/views/inertia.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 33ms (Views: 2.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-17 18:05:37 +0300
+Started GET "/" for ::1 at 2025-06-17 18:14:12 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/bundler/gems/inertia-rails-a6a3c289bd82/app/views/inertia.html.erb within layouts/application
+  Rendered /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/bundler/gems/inertia-rails-a6a3c289bd82/app/views/inertia.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 49ms (Views: 2.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-17 18:14:12 +0300
+Started GET "/" for ::1 at 2025-06-17 18:42:41 +0300
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/bundler/gems/inertia-rails-a6a3c289bd82/app/views/inertia.html.erb within layouts/application
+  Rendered /Users/zillah/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/bundler/gems/inertia-rails-a6a3c289bd82/app/views/inertia.html.erb within layouts/application (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | GC: 0.0ms)
+Completed 200 OK in 51ms (Views: 14.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/.well-known/appspecific/com.chrome.devtools.json" for ::1 at 2025-06-17 18:42:41 +0300
