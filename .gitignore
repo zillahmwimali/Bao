@@ -1,0 +1,41 @@
+# .gitignore
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+log/*
+*.log
+
+# Rails
+/tmp
+/log
+/public/assets
+.byebug_history
+coverage/
+vendor/bundle
+*.rbc
+capybara-*.html
+db/*.sqlite3
+db/*.sqlite3-journal
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# dotenv
+.env
+.env.*
+
+# Yarn
+.yarn/cache
+.pnp.*
