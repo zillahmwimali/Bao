@@ -1,0 +1,20 @@
+{
+  "entrypoints/application.tsx": {
+    "file": "assets/application-BXboamS9.js",
+    "name": "entrypoints/application.tsx",
+    "src": "entrypoints/application.tsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/Home.tsx"
+    ]
+  },
+  "pages/Home.tsx": {
+    "file": "assets/Home-CVqtfA0t.js",
+    "name": "Home",
+    "src": "pages/Home.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "entrypoints/application.tsx"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+import{j as e}from"./application-BXboamS9.js";const t=({message:s})=>(console.log("Home component rendered"),e.jsxs("div",{className:"p-6",children:[e.jsx("h1",{className:"text-2xl font-bold text-gray-800",children:"Welcome to Bao 🚀"}),e.jsxs("p",{className:"mt-4 text-red-600",children:[s," UPDATnsd mES"]})]}));export{t as default};

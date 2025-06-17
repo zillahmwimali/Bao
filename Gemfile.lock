@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/inertiajs/inertia-rails
+  revision: a6a3c289bd82248ee259a6ac3fa979ea4a4d0926
+  specs:
+    inertia_rails (3.8.0)
+      railties (>= 6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -387,6 +394,7 @@ DEPENDENCIES
   capybara
   debug
   importmap-rails
+  inertia_rails!
   jbuilder
   kamal
   propshaft

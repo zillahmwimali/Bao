@@ -1,20 +1,24 @@
-#!/usr/bin/env ruby
+#!/usr/bin/env bash
 
-pid_file = File.expand_path("../tmp/pids/server.pid", __dir__)
+# Remove stale server.pid if it exists
+PID_FILE="tmp/pids/server.pid"
+if [ -f "$PID_FILE" ]; then
+  echo "Removing stale server.pid..."
+  rm "$PID_FILE"
+fi
 
-if File.exist?(pid_file)
-  puts "Removing stale server.pid..."
-  File.delete(pid_file)
-end
-
-PORT = 3000
-PID = `lsof -ti tcp:#{PORT}`.strip
-
-if !PID.empty?
-  puts "Port #{PORT} is already in use by process #{PID}..."
-  Process.kill("KILL", PID.to_i)
+# Kill process on port 3000 if running
+PORT=3000
+PID=$(lsof -ti tcp:$PORT)
+if [ -n "$PID" ]; then
+  echo "Port $PORT is in use by PID $PID, killing it..."
+  kill -9 $PID
 else
-  puts "Port #{PORT} is free."
-end
+  echo "Port $PORT is free."
+fi
 
-exec "./bin/rails", "server", *ARGV
+# Start Rails and Vite dev servers
+echo "Starting Rails + Vite dev servers..."
+
+# Use foreman or concurrently to manage both processes
+exec bin/rails server -p 3000 & bin/vite dev & wait
