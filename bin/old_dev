@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
+
 pid_file = File.expand_path("../tmp/pids/server.pid", __dir__)
 
 if File.exist?(pid_file)
@@ -7,7 +9,7 @@ if File.exist?(pid_file)
 end
 
 PORT = 3000
-PID = `lsof -ti tcp:#{PORT}`.strip
+PID = %x(lsof -ti tcp:#{PORT}).strip
 
 if !PID.empty?
   puts "Port #{PORT} is already in use by process #{PID}..."
