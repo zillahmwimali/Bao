@@ -47,6 +47,9 @@ jobs:
       - name: Install system dependencies
         run: sudo apt-get install -y libpq-dev
 
+      - name: Configure bundler to use a local path
+        run: bundle config set --local path 'vendor/bundle'
+
       - name: Install Ruby gems
         run: bundle install --jobs 4 --retry 3
 
