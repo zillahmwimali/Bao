@@ -6,7 +6,7 @@ import typescriptParser from '@typescript-eslint/parser';
 import typescriptPlugin from '@typescript-eslint/eslint-plugin';
 
 export default [
-  // ✅ 1. Separate the `ignores` block
+  // 1. Separate the `ignores` block
   {
     ignores: [
       'node_modules',
@@ -24,10 +24,10 @@ export default [
     ],
   },
 
-  // ✅ 2. Base JS recommended rules
+  // 2. Base JS recommended rules
   js.configs.recommended,
 
-  // ✅ 3. TypeScript + React
+  // 3. TypeScript + React
   {
     files: ['**/*.{ts,tsx}'],
     languageOptions: {
@@ -73,7 +73,7 @@ export default [
     },
   },
 
-  // ✅ 4. JavaScript + React
+  // 4. JavaScript + React
   {
     files: ['**/*.{js,jsx}'],
     languageOptions: {
@@ -105,7 +105,7 @@ export default [
     },
   },
 
-  // ✅ 5. Node-style config files (like Vite config)
+  // 5. Node-style config files (like Vite config)
   {
     files: ['vite.config.{js,ts}'],
     languageOptions: {
