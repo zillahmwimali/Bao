@@ -6,28 +6,28 @@ import typescriptParser from '@typescript-eslint/parser';
 import typescriptPlugin from '@typescript-eslint/eslint-plugin';
 
 export default [
+  // ✅ 1. Separate the `ignores` block
   {
     ignores: [
-      'node_modules', 
-      'public', 
-      'dist', 
-      'build', 
-      '**/vite-dev/**', 
-      'vendor/**', 
-      '**/vendor/**', 
-      '**/.vitepress/**', 
-      '**/*.d.ts', 
-      '**/node_modules/**', 
-      '**/dist/**', 
-      '**/public/**', 
-      '**/vendor/**', 
-      '**/docs/.vitepress/**', 
-      '**/vendor/bundle/**', 
+      'node_modules',
+      'public',
+      'dist',
+      'build',
+      '**/vite-dev/**',
+      'vendor/**',
+      '**/vendor/**',
+      '**/.vitepress/**',
+      '**/*.d.ts',
       '**/*.min.js',
+      '**/docs/.vitepress/**',
+      '**/vendor/bundle/**',
     ],
-    ...js.configs.recommended,
   },
 
+  // ✅ 2. Base JS recommended rules
+  js.configs.recommended,
+
+  // ✅ 3. TypeScript + React
   {
     files: ['**/*.{ts,tsx}'],
     languageOptions: {
@@ -73,6 +73,7 @@ export default [
     },
   },
 
+  // ✅ 4. JavaScript + React
   {
     files: ['**/*.{js,jsx}'],
     languageOptions: {
@@ -103,6 +104,8 @@ export default [
       react: { version: 'detect' },
     },
   },
+
+  // ✅ 5. Node-style config files (like Vite config)
   {
     files: ['vite.config.{js,ts}'],
     languageOptions: {
@@ -113,6 +116,5 @@ export default [
         process: true,
       },
     },
-
   },
 ];
