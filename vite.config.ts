@@ -1,7 +1,7 @@
+import path from 'path'
+import ReactPlugin from  '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 import RubyPlugin from 'vite-plugin-ruby'
-import ReactPlugin from  '@vitejs/plugin-react'
-import path from 'path'
 
 
 export default defineConfig({

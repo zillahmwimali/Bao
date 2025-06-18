@@ -1,5 +1,5 @@
-import React from 'react'
 import { PageProps } from '@inertiajs/inertia'
+import React from 'react'
 
 type HomeProps = {
   message: string
