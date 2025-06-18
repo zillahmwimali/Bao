@@ -8,7 +8,7 @@ import typescriptPlugin from '@typescript-eslint/eslint-plugin';
 export default [
   {
     ...js.configs.recommended,
-    ignores: ['node_modules', 'public', 'dist', 'build', '**/vite-dev/**'],
+    ignores: ['node_modules', 'public', 'dist', 'build', '**/vite-dev/**', 'vendor/**', '**/vendor/**'],
   },
 
   {
