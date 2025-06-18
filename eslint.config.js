@@ -7,8 +7,25 @@ import typescriptPlugin from '@typescript-eslint/eslint-plugin';
 
 export default [
   {
+    ignores: [
+      'node_modules', 
+      'public', 
+      'dist', 
+      'build', 
+      '**/vite-dev/**', 
+      'vendor/**', 
+      '**/vendor/**', 
+      '**/.vitepress/**', 
+      '**/*.d.ts', 
+      '**/node_modules/**', 
+      '**/dist/**', 
+      '**/public/**', 
+      '**/vendor/**', 
+      '**/docs/.vitepress/**', 
+      '**/vendor/bundle/**', 
+      '**/*.min.js',
+    ],
     ...js.configs.recommended,
-    ignores: ['node_modules', 'public', 'dist', 'build', '**/vite-dev/**', 'vendor/**', '**/vendor/**', '**/.vitepress/**', '**/*.d.ts', '**/node_modules/**', '**/dist/**', '**/public/**'],
   },
 
   {
