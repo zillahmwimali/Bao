@@ -17,6 +17,16 @@ else
   echo "Port $PORT is free."
 fi
 
+# Kill process on port 3036 if running
+PORT=3036
+VITE_PID=$(lsof -ti tcp:$VITE_PORT)
+if [ -n "$VITE_PID" ]; then
+  echo "Port $VITE_PORT is in use by PID $VITE_PID, killing it..."
+  kill -9 $VITE_PID
+else
+  echo "Port $VITE_PORT is free."
+fi
+
 # Start Rails and Vite dev servers
 echo "Starting Rails + Vite dev servers..."
 
