@@ -3,6 +3,7 @@
   "type": "module",
   "devDependencies": {
     "@eslint/js": "^9.29.0",
+    "@types/axios": "^0.14.4",
     "@types/node": "^22.15.21",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
