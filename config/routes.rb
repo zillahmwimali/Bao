@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   match "/.well-known/*path", to: proc { [204, {}, [""]] }, via: :all
 
   get "dashboard/landing", to: "dashboard/landing#index"
-    
+
   # Defines the root path route ("/")
   root "home#index"
 end

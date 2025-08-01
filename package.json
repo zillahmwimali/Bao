@@ -23,6 +23,7 @@
   "dependencies": {
     "@inertiajs/inertia": "^0.11.1",
     "@inertiajs/inertia-react": "^0.8.1",
+    "axios": "^1.11.0",
     "path": "^0.12.7",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
@@ -30,6 +31,5 @@
   "scripts": {
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
-    
   }
 }

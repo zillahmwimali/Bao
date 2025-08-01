@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class AddRoleColumnToUsersTable < ActiveRecord::Migration[8.0]
   def change
     # Intentionally left blank. Migration skipped manually.
