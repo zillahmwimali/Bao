@@ -27,6 +27,7 @@ const Home: React.FC< HomeProps> = ({ message }) => {
         <h1 className="text-2xl font-bold text-gray-800">Welcome to Bao 🚀</h1>
       
         <p className="mt-4 text-red-600">{message}</p>
+
       
       </div>
       {current_user?.user_role === "admin" && (

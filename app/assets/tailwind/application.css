@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+@layer base {
+    :root {
+
+        --font-sans: 'Satoshi', sans-serif;
+    
+    /* Colors */
+        --color-vivid-violet-600: #a936b9;
+        --color-vivid-violet-700: #942c9f;
+        --color-vivid-violet-800: #7a2583;
+        --color-vivid-violet-900: #66246b;
+    }
+  }
+  
+  
+
+
+
+
+
+
