@@ -1,5 +1,7 @@
+import type { ReactNode } from 'react';
+
 export interface ContainerProps {
-  children: React.ReactNode
+  children: ReactNode
   className?: string
   size?: 'full' | 'centered'
 }
