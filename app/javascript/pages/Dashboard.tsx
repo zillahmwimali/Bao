@@ -13,7 +13,7 @@ const Dashboard: React.FC<PageProps & DashboardProps> = ({ message }) => {
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-bold text-gray-800">Welcome to Bao 🚀</h1>
       
-        <p className="mt-4 text-red-600">{message}</p>
+        <p className="mt-4 text-vivid-violet-900">{message}</p>
       
       </div>
 

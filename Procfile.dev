@@ -3,3 +3,4 @@ web: bin/rails server -p 3000
 vite: bin/vite dev --port 5173
 
 
+css: bin/rails tailwindcss:watch

@@ -6,6 +6,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <%= stylesheet_link_tag "tailwind", "data-turbo-track": "reload" %>
+
 
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -39,6 +41,8 @@
   </head>
 
   <body>
-    <%= yield %>
+    <main class="container mx-auto mt-28 px-5 flex">
+      <%= yield %>
+    </main>
   </body>
 </html>
