@@ -3,4 +3,5 @@ reviews:
     enabled: true
     base_branches:
       - develop
-    
+settings:
+  style: concise  

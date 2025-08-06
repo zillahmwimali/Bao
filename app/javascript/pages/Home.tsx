@@ -2,6 +2,7 @@ import { Page, PageProps } from '@inertiajs/inertia'
 import { Link } from '@inertiajs/inertia-react'
 import React from 'react'
 import { usePage } from '@inertiajs/inertia-react'
+import Container from '../components/layout/Container'
 
 type HomeProps = {
   message: string
@@ -21,7 +22,7 @@ interface ExtendedPageProps extends PageProps {
 const Home: React.FC< HomeProps> = ({ message }) => {
   const { current_user } = usePage<Page<ExtendedPageProps>>().props;
   return (
-    <div className="p-6">
+    <Container>
 
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-bold text-gray-800">Welcome to Bao 🚀</h1>
@@ -35,7 +36,7 @@ const Home: React.FC< HomeProps> = ({ message }) => {
       Dashboard
       </Link>
       )}
-    </div>
+    </Container>
   )
 }
 

@@ -1,6 +1,7 @@
 import { PageProps } from '@inertiajs/inertia'
 import { Link } from '@inertiajs/inertia-react'
 import React from 'react'
+import Container from '../components/layout/Container'
 
 type DashboardProps = {
   message: string
@@ -8,7 +9,7 @@ type DashboardProps = {
 
 const Dashboard: React.FC<PageProps & DashboardProps> = ({ message }) => {
   return (
-    <div className="p-6">
+    <Container>
 
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-bold text-gray-800">Welcome to Bao 🚀</h1>
@@ -18,9 +19,9 @@ const Dashboard: React.FC<PageProps & DashboardProps> = ({ message }) => {
       </div>
 
       <Link href="/">
-      Home
+      Home  
       </Link>
-    </div>
+    </Container>
   )
 }
 
