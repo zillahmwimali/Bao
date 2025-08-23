@@ -25,6 +25,7 @@
     "vite-plugin-ruby": "^5.1.1"
   },
   "dependencies": {
+    "@hugeicons/react": "^1.0.5",
     "@inertiajs/inertia": "^0.11.1",
     "@inertiajs/inertia-react": "^0.8.1",
     "axios": "^1.11.0",
