@@ -22,6 +22,8 @@ interface ExtendedPageProps extends PageProps {
 const Home: React.FC< HomeProps> = ({ message }) => {
   const { current_user } = usePage<Page<ExtendedPageProps>>().props;
   return (
+    <>
+
     <Container>
 
       <div className="flex justify-between items-center">
@@ -37,6 +39,7 @@ const Home: React.FC< HomeProps> = ({ message }) => {
       </Link>
       )}
     </Container>
+    </>
   )
 }
 
