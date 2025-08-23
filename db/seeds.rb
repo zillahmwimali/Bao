@@ -10,11 +10,11 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 if Rails.env.development? || Rails.env.test? || ENV["SEED_ADMIN"] == "true"
-User.find_or_create_by!(email: ENV.fetch("ADMIN_EMAIL")) do |user|
-  user.name = ENV.fetch("ADMIN_NAME", "Bao Admin")
-  user.phone = ENV["ADMIN_PHONE"]
-  user.user_role = "admin"
-  user.password = ENV.fetch("ADMIN_PASSWORD")
-  user.password_confirmation = ENV.fetch("ADMIN_PASSWORD")
-end
+  User.find_or_create_by!(email: ENV.fetch("ADMIN_EMAIL")) do |user|
+    user.name = ENV.fetch("ADMIN_NAME", "Bao Admin")
+    user.phone = ENV["ADMIN_PHONE"]
+    user.user_role = "admin"
+    user.password = ENV.fetch("ADMIN_PASSWORD")
+    user.password_confirmation = ENV.fetch("ADMIN_PASSWORD")
+  end
 end

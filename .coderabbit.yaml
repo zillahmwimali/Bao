@@ -5,3 +5,6 @@ reviews:
       - develop
 settings:
   style: concise  
+  
+fun_features:
+  poem: false
